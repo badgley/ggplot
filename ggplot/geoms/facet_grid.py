@@ -2,6 +2,9 @@ from copy import deepcopy
 import math
 
 class facet_grid(object):
+    """ 
+    see http://blog.yhathq.com/posts/ggplot-for-python.html for examples
+    """
     def __init__(self, x=None, y=None, scales=None):
         self.x = x
         self.y = y
